@@ -10,6 +10,6 @@ describe("getMiddleLetter", () => {
   });
 
   it("returns the two middle letters for a word with an even number of letters", () => {
-    expect(getMiddleLetter("help")).toBe("el");
+    expect(getMiddleLetter("distance")).toBe("ta");
   });
 });

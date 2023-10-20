@@ -6,7 +6,9 @@ const getMiddleLetter = function (word) {
     const firstLetter = wordArray[wordLength / 2 - 1];
     const secondLetter = wordArray[wordLength / 2];
 
-    return firstLetter + secondLetter;
+    const evenMiddleLetters = firstLetter + secondLetter;
+
+    return evenMiddleLetters;
   } else {
     return wordArray[(wordLength - 1) / 2];
   }
